@@ -95,3 +95,9 @@ kubeadm join --token 5bcd73.aa70895034d49003 10.176.93.38:6443 --discovery-token
 5. kubectl describe svc spark-master
 6. kubectl port-forward spark-master-498980536-kfgg8 8080:8080
 7. kubectl delete po,svc --all
+8. kubectl get nodes
+9. kubectl describe svc
+
+[참조]
+- http://bryans.tistory.com/281
+- 
