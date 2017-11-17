@@ -45,7 +45,7 @@ gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg
 
 9. kubectl get nodes
 10. kubectl get pods --all-namespaces
-11. 
+
 
 [참조]
 - https://www.linuxtechi.com/install-kubernetes-1-7-centos7-rhel7/
@@ -84,3 +84,12 @@ gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg
 
 
 kubeadm join --token 5bcd73.aa70895034d49003 10.176.93.38:6443 --discovery-token-ca-cert-hash sha256:04e3eeb0bcde2356f71fa2c5c2f7db0ec7f08864a8a794aa92f9745b9aa28ea6
+
+
+[spark]
+1. kubectl create -f spark-master.yaml
+2. kubectl create -f spark-master-service.yaml
+3. kubectl create -f spark-worker.yaml
+4. kubectl get po
+5. kubectl describe svc spark-master
+6. kubectl port-forward spark-master-498980536-kfgg8 8080:8080
