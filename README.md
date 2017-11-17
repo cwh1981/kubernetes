@@ -90,6 +90,8 @@ kubeadm join --token 5bcd73.aa70895034d49003 10.176.93.38:6443 --discovery-token
 1. kubectl create -f spark-master.yaml
 2. kubectl create -f spark-master-service.yaml
 3. kubectl create -f spark-worker.yaml
+4. kubectl create -f spark-worker-resource.yaml
 4. kubectl get po
 5. kubectl describe svc spark-master
 6. kubectl port-forward spark-master-498980536-kfgg8 8080:8080
+7. kubectl delete po,svc --all
