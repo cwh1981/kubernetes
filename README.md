@@ -49,7 +49,7 @@ gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg
 
 [참조]
 - https://www.linuxtechi.com/install-kubernetes-1-7-centos7-rhel7/
-- 
+- https://kubernetes.io/docs/getting-started-guides/centos/centos_manual_config/#prerequisites
 
 [slave]
 1. Disable SELinux & configure firewall rules on both the nodes
@@ -77,7 +77,7 @@ gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg
 
 6. kubectl get nodes
 
-[]
+[참조]
 - https://github.com/kubernetes/kubernetes/issues/53333
 
 
