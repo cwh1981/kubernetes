@@ -50,6 +50,8 @@ gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg
 [참조]
 - https://www.linuxtechi.com/install-kubernetes-1-7-centos7-rhel7/
 - https://kubernetes.io/docs/getting-started-guides/centos/centos_manual_config/#prerequisites
+- http://blog.madhukaraphatak.com/scaling-spark-with-kubernetes-part-5/
+
 
 [slave]
 1. Disable SELinux & configure firewall rules on both the nodes
