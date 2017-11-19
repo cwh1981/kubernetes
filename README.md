@@ -13,6 +13,7 @@ centos 7 :
 192.168.1.50 worker-node2
 
 3. Edit yum repo(/etc/yum.repos.d/kubernetes.repo)
+
 [kubernetes]
 name=Kubernetes
 baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64
