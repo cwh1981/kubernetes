@@ -1,5 +1,9 @@
 # kubernetes
 
+[view]
+kubectl get pods --all-namespaces
+kubectl get nodes
+
 [master]
 centos 7 : 
 1. Disable SELinux & setup firewall rules
